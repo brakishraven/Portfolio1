@@ -1,10 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     max-width: 70rem;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: left;
     color: white;
+    overflow-x: hidden;
   }
   
   .newheader {
@@ -13,8 +14,8 @@ body {
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
     margin-bottom: 15px;
   }
   body {
@@ -67,13 +68,12 @@ body {
 
 /* Navbar Container */
 .navbar {
-  width: 100vw; /* Full screen width */
+  width: 100%; /* Full screen width */
   background-color: #9735ff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 0.75rem 1rem;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
   position: sticky;
-  top: 0;
-  z-index: 1020;
+ 
+  z-index: 1000;
   transition: padding 0.3s ease; /* Smooth expand on hover */
 }
 
