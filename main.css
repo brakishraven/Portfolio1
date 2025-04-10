@@ -4,11 +4,12 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     text-align: left;
+    color: white;
   }
   
   .newheader {
     background-color: rgb(89, 26, 106);
-    color: white;
+    color: rgb(241, 241, 241);
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -16,9 +17,11 @@ body {
     padding-right: 10%;
     margin-bottom: 15px;
   }
-  
+  body {
+    background-color: #272727;
+  }
   img {
-    width: 50%;
+    width: 30%;
   }
   
   .caption {
@@ -61,3 +64,58 @@ body {
   li {
     text-align: left;
   }
+
+/* Navbar Container */
+.navbar {
+  width: 100vw; /* Full screen width */
+  background-color: #9735ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.75rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  transition: padding 0.3s ease; /* Smooth expand on hover */
+}
+
+/* Expand effect on hover */
+.navbar:hover {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Brand Name */
+.navbar-brand {
+  font-weight: bold;
+  color: #fcfcfc;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #084298;
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #fffefe;
+  font-weight: 500;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #0d6efd;
+}
+
+/* Toggler (for small screens) */
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+}
+
+/* Optional Collapse Padding */
+.navbar-collapse {
+  padding-left: 1rem;
+}
+
